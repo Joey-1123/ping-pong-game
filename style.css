@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(135deg, #191654 0%, #43c6ac 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+#game-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pong-canvas {
+    background: #222;
+    border-radius: 16px;
+    box-shadow: 0 0 24px rgba(0,0,0,0.3);
+    border: 4px solid #43c6ac;
+}
+
+#scoreboard {
+    margin: 12px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 8px;
+    text-shadow: 2px 2px 6px #191654;
+}
+
+#restart-btn {
+    padding: 8px 24px;
+    font-size: 1.2rem;
+    background: #43c6ac;
+    border: none;
+    border-radius: 8px;
+    color: #222;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-bottom: 10px;
+}
+
+#restart-btn:hover {
+    background: #191654;
+    color: #fff;
+}
